@@ -1,0 +1,2 @@
+dinheiro=float(input("Digite quanto dinheiro você possui: "))
+print("A quantidade digitada {}R$\nQuantidade de dolares possiveis de comprar: {}\nOBS:O valor do dolar é de 3.77R$".format(dinheiro, dinheiro/3.77))

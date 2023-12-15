@@ -1,0 +1,8 @@
+nome=input("Digite seu nome: ")
+maiusculos=nome.upper()
+minusculos=nome.lower()
+sEspacos= nome.split()
+tamanho=len("".join(sEspacos))
+uniao= "!".join(sEspacos)
+segundoNome=uniao.find("!")
+print("O nome digitado: {}\nO nome em maiusculo: {}\nO nome em minusculo: {}\nQuantidade de letras ao todo: {} \nQuantidade de letras no primeiro nome: {}".format(nome, maiusculos, minusculos, tamanho,segundoNome))

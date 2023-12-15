@@ -1,0 +1,6 @@
+algo= input("Digite algo: ")
+print("O que você escreveu: ",algo)
+print("É um nùmero? ",algo.isnumeric())
+print("É um texto? ",algo.isalpha())
+print("É um valor alpha numerico? ",algo.isalnum())
+print("É um número decimal? ",algo.isdecimal())
